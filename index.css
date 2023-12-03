@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(39, 209, 152);
+    font-family: 'Lucida Sans';
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    background: linear-gradient(#336666);
+    padding: 20px;
+}
+
+
+nav{
+    text-align: right;
+    text-transform: uppercase;
+    /* background-color: red; */
+    background-image: linear-gradient(#99FFCC, #336666);
+    width: 100%;
+    padding: 30px;
+    margin: 0%;
+    display: flex; /* flex-box:; */
+
+}
+
+#navImage{
+    margin-right: 800px;
+}
+
+#Home,
+#About,
+#Contact,
+#Sign{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-top: 0%;
+    /* margin-left: 40px; */
+    padding: 33px 40px;
+}
+
+#Home:hover,
+#About:hover,
+#Contact:hover,
+#Sign:hover{
+    background-color: rgb(45, 163, 45);
+}
+
+#logoImage{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+/* #mainImage.h1{
+    
+} */
