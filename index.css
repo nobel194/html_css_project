@@ -20,10 +20,11 @@ nav{
     /* background-color: red; */
     background-image: linear-gradient(#99FFCC, #336666);
     width: 100%;
-    padding: 30px;
+    /* padding: 10px; */
     margin: 0%;
     display: flex; /* flex-box:; */
-
+    justify-content: right;
+    align-items: center;
 }
 
 #navImage{
@@ -35,10 +36,10 @@ nav{
 #Contact,
 #Sign{
     border-left: 1px solid white;
-    border-right: 1px solid white;
+    /* border-right: 1px solid white; */
     margin-top: 0%;
+    padding: 20px;
     /* margin-left: 40px; */
-    padding: 33px 40px;
 }
 
 #Home:hover,
